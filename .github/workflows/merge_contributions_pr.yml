@@ -5,7 +5,7 @@ on:
       - opened
       - reopened
 
-jobs:
+jobs:d252f4f01c032658a0a59b60f66d9159c7430fe8.github/workflows/python-app.yml
   check:
     runs-on: ubuntu-latest
     steps:
