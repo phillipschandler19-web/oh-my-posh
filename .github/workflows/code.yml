@@ -8,14 +8,30 @@ phillipschandler19-web-patch-2debugger env:
       - 'website/**'
       - '.github/*.md'
       - '.github/FUNDING.yml'
-
+sha256:bb2f05cc9af2ae3908c24be2afa4d527985c2a13838f012c3a1610e0108aeeff
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 name: Validate Code
 jobs:
-  test:
+  test:https://auth.openai.comphillipschandler19-web-patch-2.github/workflows/merge_contributions_pr.yml  "jsonrpc": "2.0",
+  "id": 4,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Authentication required: no access token provided."
+      }
+    ],
+    "_meta": {
+      "mcp/www_authenticate": [
+        "Bearer error=\"invalid_request\" error_description=\"No access token was provided\" resource_metadata=\"https://auth.openai.com\""
+      ]
+    },
+    "isError": true
+  }
+}
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
