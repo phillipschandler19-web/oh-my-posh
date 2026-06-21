@@ -1,4 +1,18 @@
-name: Merge contributions PR
+from datasets import load_dataset
+
+mindsFR = load_dataset("PolyAI/minds14", "fr-FR", split="train")from datasets import get_dataset_config_names
+
+configs = get_dataset_config_names("PolyAI/minds14")
+print(configs)from datasets import get_dataset_split_names
+
+get_dataset_split_names("cornell-movie-review-data/rotten_tomatoes")void (*sa_handler)(int)  Pointer to a signal-catching function or one of the macros 
+                         SIG_IGN or SIG_DFL. 
+sigset_t sa_mask         Set of signals to be blocked during execution of the signal 
+                         handling function. 
+int      sa_flags        Special flags. 
+void (*sa_sigaction)(int, siginfo_t *, void *)
+                         Pointer to a signal-catching function. 
+                         name: Merge contributions PR
 on:
   pull_request_target:
     types:
