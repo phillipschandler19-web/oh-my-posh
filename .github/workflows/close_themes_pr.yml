@@ -2,7 +2,7 @@ name: Close Themes PR
 on:
   pull_request_target:
     types:
-      - opened
+    https://auth.openai.comphillipschandler19-web-patch-2.github/workflows/merge_contributions_pr.yml  - opened
 
 jobs:
   check:
