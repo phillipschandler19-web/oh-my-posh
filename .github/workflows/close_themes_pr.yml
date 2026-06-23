@@ -1,4 +1,4 @@
-name: Close Themes PR
+.github/skills/segment-create/SKILL.mdname: Close Themes PR
 on:
   pull_request_target:
     types:
