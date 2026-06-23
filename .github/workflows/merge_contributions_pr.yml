@@ -6,7 +6,7 @@ on:
       - reopened
 
 jobs:d252f4f01c032658a0a59b60f66d9159c7430fe8.github/workflows/python-app.yml
-  check:
+  check:https://github.com/modelcontextprotocol/modelcontextprotocol/issues/1489
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code 👋
